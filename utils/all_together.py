@@ -7,9 +7,9 @@ This module runs three python modules in order to execute the final backup opera
 
 import time
 from pathlib import Path
-from . import create_backup
-from . import remove_old_backups
-from . import verify_backup
+from utils import create_backup
+from utils import remove_old_backups
+from utils import verify_backup
 
 directory = Path("d:/reposground/work/edcollbkp/utils")
 
